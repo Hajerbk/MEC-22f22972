@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class ResturantBill
+{
+public static void main(String args[])
+{
+Scanner scanner=new Scanner(System.in);
+System.out.println("enter the total bill amount in OMR:");
+double billAmount=scanner.nextDouble();
+double finalAmount=calculateTotalWithDriscount(billAmount);
+System.out.println("the final bill amount after discount (if application) is:%.2f OMR%n",finalAmount);
+Scanner.close();
+}
+public statin double calculationTotalWithDiscount(double Amount)
+{
+if (amount>50)
+{
+amount=amount*1.95;
+}
+return amoount ;
+}
+}
